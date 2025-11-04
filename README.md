@@ -1,27 +1,163 @@
-🧠 Sentiment Analysis using LightGBM & Streamlit
+Welcome to my Natural Language Processing (NLP) repository!
+This repo contains my practical work, projects, and experiments related to AI, Machine Learning, and NLP — from basic text processing to advanced deep learning models.
 
-This project focuses on Natural Language Processing (NLP) to analyze restaurant reviews and classify them as positive or negative. It demonstrates a complete machine learning workflow — from text preprocessing and feature extraction to model training, optimization, and deployment — all integrated into an interactive Streamlit web app.
+🌟 About This Repository
 
-🚀 Project Overview
+This repository is a collection of my hands-on learning, projects, and research implementations in the field of Natural Language Processing (NLP).
+It includes tasks, models, and pipelines that explore how machines understand and generate human language.
 
-The goal of this project is to extract meaningful insights from unstructured text data and build an efficient sentiment classifier. Using the Restaurant Reviews dataset, the project applies advanced preprocessing techniques such as lemmatization, negation handling, and stopword removal to clean the text data. The processed text is then transformed into numerical vectors using TF-IDF (Term Frequency–Inverse Document Frequency) with unigram and bigram features.
+🔍 Topics Covered
 
-The optimized LightGBM (Light Gradient Boosted Machine) model is trained on this transformed data. LightGBM’s ability to handle sparse, high-dimensional text features makes it ideal for this task, resulting in exceptional performance — with accuracy improved from 67% to 99.43% after fine-tuning.
+Here’s what I’ve explored and practiced so far:
 
-💡 Key Features
+🧹 Text Preprocessing
 
-🧹 Robust text preprocessing pipeline (tokenization, lemmatization, stopword removal)
+Tokenization, Lemmatization, Stemming
 
-📊 TF-IDF vectorization with n-gram support for contextual understanding
+Stopword removal, Part-of-Speech tagging
 
-⚡ High-performance LightGBM classifier for sentiment prediction
+Named Entity Recognition (NER)
 
-🖥️ Streamlit-based front end for interactive single and batch predictions
+Chunking (NP, VP, PP phrases)
 
-💾 Model persistence using Pickle (for instant reloading without retraining)
+Regular expressions and pattern extraction
 
-📦 Batch CSV upload support with downloadable results
+📊 Feature Engineering
 
-🎯 Results
+Bag of Words (BoW)
 
-The model achieves 99.43% accuracy, demonstrating strong generalization and effective sentiment classification. The Streamlit app provides an intuitive interface for both individual and bulk predictions.
+TF-IDF Vectorization
+
+Word Embeddings (Word2Vec, GloVe, FastText)
+
+Sentence Embeddings (BERT, SBERT)
+
+🤖 Machine Learning for NLP
+
+Text classification using Logistic Regression, Naive Bayes, SVM
+
+Spam Detection, Sentiment Analysis
+
+News Categorization
+
+🧩 Deep Learning for NLP
+
+Recurrent Neural Networks (RNN), LSTM, GRU
+
+Attention Mechanisms
+
+Transformer Models (BERT, GPT, RoBERTa, DistilBERT)
+
+🗣️ Language Generation
+
+Text Summarization (Extractive & Abstractive)
+
+Chatbots and Dialogue Systems
+
+Next-word prediction using RNNs
+
+⚙️ Advanced NLP
+
+Named Entity Recognition using SpaCy
+
+Topic Modeling (LDA, NMF)
+
+Question Answering using Transformers
+
+Semantic Similarity and Text Matching
+
+🚀 Projects Implemented
+
+Here are some NLP projects included or referenced in this repository:
+
+📩 Spam Mail Classifier
+
+Built using TF-IDF and Logistic Regression.
+
+Dataset: SMS Spam Collection.
+
+Goal: Classify messages as “Spam” or “Ham”.
+
+💬 Chatbot using NLP and Deep Learning
+
+Intent-based chatbot built using TensorFlow/Keras and NLP preprocessing.
+
+Trained on custom intents JSON data.
+
+🧾 News Headline Classifier
+
+Multiclass classification using Naive Bayes and TF-IDF.
+
+Predicts the news category from headline text.
+
+❤️ Sentiment Analysis on Twitter Data
+
+Used Word2Vec embeddings + LSTM model.
+
+Classifies tweets as positive, neutral, or negative.
+
+📚 Text Summarization System
+
+Implemented both extractive and abstractive summarization.
+
+Used Hugging Face Transformers (BART/T5 models).
+
+🔎 Named Entity Recognition (NER)
+
+Performed NER using SpaCy.
+
+Extracts names, organizations, locations, etc., from raw text.
+
+📖 Word2Vec Implementation
+
+Trained custom Word2Vec model using Gensim.
+
+Visualized word relationships using t-SNE.
+
+🧠 Transformer-based QA System
+
+Used BERT for Question Answering.
+
+Given a passage and question, predicts the correct answer span.
+
+🧰 Tech Stack & Libraries
+
+Languages: Python
+
+Core Libraries: NumPy, Pandas, Scikit-learn
+
+NLP Libraries: NLTK, SpaCy, Gensim, Hugging Face Transformers
+
+Deep Learning: TensorFlow, Keras, PyTorch
+
+Visualization: Matplotlib, Seaborn, WordCloud
+
+Versioning & Tools: Git, Jupyter Notebook
+
+🧑‍💻 Skills Strengthened
+
+Natural Language Understanding (NLU)
+
+Text Analytics & Classification
+
+Data Cleaning & Preprocessing
+
+Deep Learning (RNN, LSTM, Transformers)
+
+Model Deployment & Evaluation
+
+Working with large text datasets
+
+📈 Future Plans
+
+Integrate MLflow for experiment tracking.
+
+Deploy a Transformer-based API for real-time sentiment analysis.
+
+Build an NLP-powered recommendation system.
+
+Explore LLM fine-tuning (BERT, GPT) for custom tasks.
+
+🏆 Goal
+
+To master AI and NLP Engineering — building intelligent systems that truly understand and generate human language efficiently and ethically.
